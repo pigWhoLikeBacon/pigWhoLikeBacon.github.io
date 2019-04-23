@@ -1,0 +1,143 @@
+body {
+	height: 1080px;
+	width: 100%;
+	background: url(../image/homebackground.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+header {
+	height: 3%;
+	width: 100%;
+	
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+img.logo {
+	position: absolute;
+	top: 0%;
+	left: 12%;
+}
+
+.userAccount {
+	height: 65%;
+	width: 14%;
+	background-color: rgba(0, 0, 100, 0.5);
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	border-radius: 0px 0px 15px 0px;
+	
+	position: absolute;
+	top: 0%;
+	right: 12%;
+}
+
+.userName {
+	height: 65%;
+	width: 7%;
+	background-color: rgba(0, 0, 100, 0.5);
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	border-radius: 0px 0px 0px 15px;
+	
+	position: absolute;
+	top: 0%;
+	right: 26.5%;
+}
+
+nav {
+	width: 76%;
+	height: 5.5%;
+	text-align: left;
+	background: darkgreen;
+	border-radius: 15px 15px 0px 0px;
+	background-color: rgba(63, 199, 204, 0.6);
+	
+	position: absolute;
+	top: 4%;
+	left: 12%;
+	right: 12%;
+}
+
+aside.aside {
+	width: 20%;
+	height: 521.8px;
+	background-color: rgba(63, 72, 204, 0.6);
+	border-radius: 0px 0px 0px 15px;
+	margin: 380px auto 0;
+	
+	position: absolute;
+	top: 11.5%;
+	left: 12%;
+}
+
+section {
+	width: 55.2%;
+	height: 84.5%;
+	background-color: rgba(255, 127, 39, 0.3);
+	border-radius: 0px 0px 15px 0px;
+	
+	position: absolute;
+	top: 10.5%;
+	right: 12%;
+}
+
+footer {
+	width: 100%;
+	height: 3%;
+	color: gray;
+	text-align: center;
+	
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.white {
+	color: white;
+}
+
+form {
+	margin: 0px;
+	display: inline;
+}
+
+.search {
+	float: right;
+	padding-right: 30px;
+}
+
+.searchtext {
+	height: 27px;
+	width: 160px;
+	color: gray;
+	border: none;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.searchbutton {
+	height: 30px;
+	width: 80px;
+	color: white;
+	font-size: 16px;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	background-color: rgba(63, 199, 204, 1);
+}
